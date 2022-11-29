@@ -9,8 +9,12 @@
   --subnav-background__color: rgb(215, 215, 215);
   --subnav-link__color: whitesmoke;
 
-  --primary-font: "Tiempos Headline","Georgia","DejaVu Serif",serif;
-  --secondary-font: "Brown","Helvetica Neue","Helvetica","Arial","Nimbus Sans L","Liberation Sans",sans-serif;
+  --primary-font: 'tiempos_headlinemedium', "Georgia","DejaVu Serif",serif;
+  --primary-source: url('https://dvdgrn-dg.github.io/tulip-ref-doc/tiempos-headline-medium-webfont.woff2') format('woff2'),
+         url('https://dvdgrn-dg.github.io/tulip-ref-doc/tiempos-headline-medium-webfont.woff') format('woff');
+  --secondary-font: 'brownregular',"Helvetica Neue","Helvetica","Arial","Nimbus Sans L","Liberation Sans",sans-serif;
+  --secondary-source: url('https://dvdgrn-dg.github.io/tulip-ref-doc/brown-regular-webfont.woff2') format('woff2'),
+         url('https://dvdgrn-dg.github.io/tulip-ref-doc/brown-regular-webfont.woff') format('woff');
 
   --nav-icon-width: 60px;
   --nav-icon-height: 40px;
@@ -45,6 +49,7 @@ body {
 h1 {
     color: var(--primary-color);
     font-family: var(--primary-font);
+    src: var(--primary-source);
     font-size: 32px;
     font-weight: 500;
     letter-spacing: 0;
@@ -54,6 +59,7 @@ h1 {
 h2 {
     color: var(--secondary-color);
     font-family: var(--secondary-font);
+    src: var(--secondary-source);
     font-size: 20px;
     letter-spacing: 0;
     line-height: 1.2;
@@ -63,6 +69,7 @@ h2 {
 h3 {
     color: var(--primary-color);
     font-family: var(--primary-font);
+    src: var(--primary-source);
     font-size: 25px;
     font-weight: 500;
     letter-spacing: 0;
@@ -73,6 +80,7 @@ h3 {
 h4 {
     color: var(--primary-color);
     font-family: var(--primary-font);
+    src: var(--primary-source);
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0;
@@ -84,6 +92,7 @@ h4 {
 h5 {
     color: var(--primary-color);
     font-family: var(--primary-font);
+    src: var(--primary-source);
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0;
@@ -94,6 +103,7 @@ h5 {
 h6 {
     color: var(--primary-color);
     font-family: var(--secondary-font);
+    src: var(--secondary-source);
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 0;
@@ -105,6 +115,7 @@ h6 {
 p {
     color: var(--primary-color);
     font-family: var(--secondary-font);
+    src: var(--secondary-source);
 }
 
 .page-container {
@@ -167,6 +178,7 @@ p {
 
 .brand-name {
     font-family: var(--primary-font);
+    src: var(--primary-source);
     font-size: 30px;
 }
 
@@ -206,6 +218,7 @@ p {
     width: 125px;
     z-index: 1;
     font-family: var(--secondary-font);
+    src: var(--secondary-source);
     color: var(--primary-color);
     border-radius: 0px 50px 30px 10px;
     padding: 10px;
@@ -227,6 +240,7 @@ p {
 
 .subnav__label {
     font-family: var(--primary-font);
+    src: var(--primary-source);
     font-size: 18px;
 }
 
@@ -246,6 +260,7 @@ p {
 .mode__label,
 .collapse__label {
     font-family: var(--primary-font);
+    src: var(--primary-source);
     font-size: 18px;
 }
 
@@ -317,6 +332,7 @@ li,
 table {
     color: var(--primary-color);
     font-family: var(--secondary-font);
+    src: var(--secondary-source);
 }
 
 td {
