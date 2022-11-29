@@ -1,0 +1,22 @@
+
+
+@font-face {
+    font-family: 'brownregular';
+    src: url('https://dvdgrn-dg.github.io/tulip-ref-doc/brown-regular-webfont.woff2') format('woff2'),
+         url('https://dvdgrn-dg.github.io/tulip-ref-doc/brown-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tiempos_headlinemedium';
+    src: url('https://dvdgrn-dg.github.io/tulip-ref-doc/tiempos-headline-medium-webfont.woff2') format('woff2'),
+         url('https://dvdgrn-dg.github.io/tulip-ref-doc/tiempos-headline-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
