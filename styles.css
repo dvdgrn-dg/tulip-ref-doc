@@ -12,7 +12,7 @@
   --subnav-link__color: whitesmoke;
 
   --primary-font: "tiempos_headlinemedium","Georgia","DejaVu Serif",serif;
-  --secondary-font: 'brownregular',"Helvetica Neue","Helvetica","Arial","Nimbus Sans L","Liberation Sans",sans-serif;
+  --secondary-font: "brownregular","Helvetica Neue","Helvetica","Arial","Nimbus Sans L","Liberation Sans",sans-serif;
 
   --nav-icon-width: 60px;
   --nav-icon-height: 40px;
@@ -290,15 +290,6 @@ p {
 }
 
 .main-doc {
-    /* Removed width as it didnt seem to affect anything */
-
-    /* width: 100%; */
-
-    
-    /* Removed height as it was causing bottom area of scroll bar
-    and bottom padding of page to dissappear. No known errors/bugs with removal */
-
-    /* height: inherit; */
     padding: 0;
     padding: 10px;
     overflow-y: auto;
@@ -370,8 +361,34 @@ td {
     color: var(--secondary-color);
 }
 
+.table-header-mobile {
+    font-weight: 1000;
+    color: var(--secondary-color);
+}
+
+.delivery-mobile {
+    display: none;
+}
+
+.in-person-collection-table-mobile {
+    margin-bottom: 15px;
+}
+
+.mailing-table-mobile {
+    margin-bottom: 15px;
+}
+
+.scattering-at-sea-table-mobile {
+    margin-bottom: 15px;
+}
+
+
 .col1 {
     width: 160px;
+}
+
+.table-header-mobile {
+    width: 120px;
 }
 
 .partner {
@@ -386,15 +403,23 @@ td {
     .coroner-fees {
         max-width: 1100px;
         column-count: 3;
-        list-style-type: none;   
+        
     }
 }
 
 @media only screen and (max-width: 800px) {
     .coroner-fees {
-        max-width: 1100px;
+        max-width: 800px;
         column-count: 2;
         list-style-type: none;   
+    }
+
+    .delivery-web {
+        display: none;
+    }
+
+    .delivery-mobile {
+        display: inline;
     }
 }
 
@@ -406,18 +431,12 @@ td {
     }
 
     .coroner-fees {
-        max-width: 1100px;
+        max-width: 600px;
         column-count: 1;
         list-style-type: none;   
     }
-}
 
-@media only screen and (max-width: 500px) {
-    li {
-        font-size: 93%;
-    }
-
-    table {
-        font-size: 80%;
+    body {
+        font-size: 70%;
     }
 }
