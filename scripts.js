@@ -32,5 +32,19 @@
         page.classList.toggle(modeClass);
         localStorage.setItem(modekey, page.classList.contains(modeClass));
     });
+    
+        $('.subnav__content').on('click', 'a', function() {
+
+        // When a nav item is clicked on a tablet or mobile device
+      
+          if (parseInt($(window).width()) < 990) {
+      
+          // Click the menu close button
+      
+              $('.subnav__content').triggerHandler('tap');
+      
+          }
+      
+      });
 
 }
