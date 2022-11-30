@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #243965;
+  --primary-color: red;
   --secondary-color: #379997;
   --error-color: red;
 
@@ -9,7 +9,7 @@
   --subnav-background__color: rgb(215, 215, 215);
   --subnav-link__color: whitesmoke;
 
-  --primary-font: 'tiempos_headlinemedium', "Georgia","DejaVu Serif",serif;
+  --primary-font: 'tiempos_headlinemedium'
   --primary-source: url('https://dvdgrn-dg.github.io/tulip-ref-doc/tiempos-headline-medium-webfont.woff2') format('woff2'),
          url('https://dvdgrn-dg.github.io/tulip-ref-doc/tiempos-headline-medium-webfont.woff') format('woff');
   --secondary-font: 'brownregular',"Helvetica Neue","Helvetica","Arial","Nimbus Sans L","Liberation Sans",sans-serif;
