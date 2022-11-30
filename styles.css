@@ -11,7 +11,7 @@
   --subnav-background__color: rgb(215, 215, 215);
   --subnav-link__color: whitesmoke;
 
-  --primary-font: 'tiempos_headlinemedium',"Georgia","DejaVu Serif",serif;
+  --primary-font: "tiempos_headlinemedium","Georgia","DejaVu Serif",serif;
   --secondary-font: 'brownregular',"Helvetica Neue","Helvetica","Arial","Nimbus Sans L","Liberation Sans",sans-serif;
 
   --nav-icon-width: 60px;
