@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fontstylesheet.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Tulip Cremation</title>
@@ -154,8 +155,8 @@
                         <span class="subnav__label"><u>Nevada</u></span><br>
                         <a href="#nevada">Quick Facts</a><br>
                         <a href="#nv-counties">Counties</a><br>
-                        <a href="#id-delivery">Delivery Options</a><br>
-                        <a href="#id-local">Our Local Info</a><br>
+                        <a href="#nv-delivery">Delivery Options</a><br>
+                        <a href="#nv-local">Our Local Info</a><br>
                         <a href="#nv-partner">Our Partner</a><br>
                         <a href="#nv-dispatch">Dispatch Info</a><br>
                         <a href="#nv-nok">NOK Overview</a><br>
@@ -220,8 +221,8 @@
                         <span class="subnav__label"><u>Wisconsin</u></span><br>
                         <a href="#wisconsin">Quick Facts</a><br>
                         <a href="#wi-counties">Counties</a><br>
-                        <a href="#wa-delivery">Delivery Options</a><br>
-                        <a href="#wa-local">Our Local Info</a><br>
+                        <a href="#wi-delivery">Delivery Options</a><br>
+                        <a href="#wi-local">Our Local Info</a><br>
                         <a href="#wi-partner">Our Partner</a><br>
                         <a href="#wi-dispatch">Dispatch Info</a><br>
                         <a href="#wi-nok">NOK Overview</a><br>
@@ -385,116 +386,354 @@
                     </div>
 
                 <h3 id="ca-delivery">Delivery Options - NorCal</h2> 
-                    <table class="delivery">
-                        <tr class = "table-header">
-                            <th>Delivery Type</th>
-                            <th>Price</th>
-                            <th class="partner">Partner</th>
-                            <th class="delvnotes">Notes</th>
-                        </tr>
-                        <tr>
-                            <td>In-Person Collection</td>
-                            <td>Included</td>
-                            <td class="partner">A Bay Area Crematory</td>
-                            <td class="delvnotes">Pick up is from 12pm - 2pm. Tulip will arrange time with Family and then inform Partner.</td>
-                        </tr>
-                        <tr>
-                            <td>Mailing</td>
-                            <td>Included</td>
-                            <td class="partner">A Bay Area Crematory</td>
-                            <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip.</td>
-                        </tr>
-                        <tr>
-                            <td>Scattering at Sea</td>
-                            <td>$250</td>
-                            <td class="partner"><b class="bold-red">TBD</b></td>
-                            <td class="delvnotes"><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
-                        </tr>
-                    </table>
+                    <div class="delivery-web">
+                        <table class="delivery">
+                            <tr class = "table-header">
+                                <th>Delivery Type</th>
+                                <th>Price</th>
+                                <th class="partner">Partner</th>
+                                <th class="delvnotes">Notes</th>
+                            </tr>
+                            <tr>
+                                <td>In-Person Collection</td>
+                                <td>Included</td>
+                                <td class="partner">A Bay Area Crematory</td>
+                                <td class="delvnotes">Pick up is from 12pm - 2pm. Tulip will arrange time with Family and then inform Partner.</td>
+                            </tr>
+                            <tr>
+                                <td>Mailing</td>
+                                <td>Included</td>
+                                <td class="partner">A Bay Area Crematory</td>
+                                <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip.</td>
+                            </tr>
+                            <tr>
+                                <td>Scattering at Sea</td>
+                                <td>$250</td>
+                                <td class="partner"><b class="bold-red">TBD</b></td>
+                                <td class="delvnotes"><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                            </tr>
+                        </table>
+                    </div>
+
+    
+                    <div class="delivery-mobile">
+                        <table class="in-person-collection-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>In-Person Collection</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>Included</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>A Bay Area Crematory</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Pick up is from 12pm - 2pm. Tulip will arrange time with Family and then inform Partner.</td>
+                            </tr>
+                        </table>
+                        <table class="mailing-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>Mailing</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>Included</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>A Bay Area Crematory</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Partner will have Stamps account and will share tracking information with Tulip.</td>
+                            </tr>
+                        </table>
+                        <table class="scattering-at-sea-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>Scattering at Sea</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>$250</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>A Bay Area Crematory</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                            </tr>
+                        </table>
+                    </div>
+
 
                 <h3>Delivery Options - Los Angeles & Orange</h2> 
-                    <table class="delivery">
-                        <tr class = "table-header">
-                            <th>Delivery Type</th>
-                            <th>Price</th>
-                            <th class="partner">Partner</th>
-                            <th class="delvnotes">Notes</th>
-                        </tr>
-                        <tr>
-                            <td>In-Person Collection</td>
-                            <td>Included</td>
-                            <td class="partner">Macera Crematory</td>
-                            <td class="delvnotes">Family to schedule time directly with Macera Monday-Friday from 8-10am and 2-4:30pm for pick-up</td>
-                        </tr>
-                        <tr>
-                            <td>Mailing</td>
-                            <td>Included</td>
-                            <td class="partner">Macera Crematory</td>
-                            <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip</td>
-                        </tr>
-                        <tr>
-                            <td>Scattering at Sea</td>
-                            <td>$250</td>
-                            <td class="partner">Macera Crematory</td>
-                            <td class="delvnotes">Happens once a month; Macera will send documents to us after sea scattering occurs</td>
-                        </tr>
-                    </table>
+                    <div class="delivery-web">
+                        <table class="delivery">
+                            <tr class = "table-header">
+                                <th>Delivery Type</th>
+                                <th>Price</th>
+                                <th class="partner">Partner</th>
+                                <th class="delvnotes">Notes</th>
+                            </tr>
+                            <tr>
+                                <td>In-Person Collection</td>
+                                <td>Included</td>
+                                <td class="partner">Macera Crematory</td>
+                                <td class="delvnotes">Family to schedule time directly with Macera Monday-Friday from 8-10am and 2-4:30pm for pick-up.</td>
+                            </tr>
+                            <tr>
+                                <td>Mailing</td>
+                                <td>Included</td>
+                                <td class="partner">Macera Crematory</td>
+                                <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip.</td>
+                            </tr>
+                            <tr>
+                                <td>Scattering at Sea</td>
+                                <td>$250</td>
+                                <td class="partner">Macera Crematory</td>
+                                <td class="delvnotes">Happens once a month; Macera will send documents to us after sea scattering occurs.</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="delivery-mobile">
+                        <table class="in-person-collection-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>In-Person Collection</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>Included</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>Macera Crematory</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Family to schedule time directly with Macera Monday-Friday from 8-10am and 2-4:30pm for pick-up.</td>
+                            </tr>
+                        </table>
+                        <table class="mailing-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>Mailing</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>Included</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>Macera Crematory</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Partner will have Stamps account and will share tracking information with Tulip.</td>
+                            </tr>
+                        </table>
+                        <table class="scattering-at-sea-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>Scattering at Sea</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>$250</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>Macera Crematory</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Happens once a month; Macera will send documents to us after sea scattering occurs.</td>
+                            </tr>
+                        </table>
+                    </div>
+
 
                 <h3>Delivery Options - Riverside & San Bernardino</h2> 
-                    <table class="delivery">
-                        <tr class = "table-header">
-                            <th>Delivery Type</th>
-                            <th>Price</th>
-                            <th class="partner">Partner</th>
-                            <th class="delvnotes">Notes</th>
-                        </tr>
-                        <tr>
-                            <td>In-Person Collection</td>
-                            <td>Included</td>
-                            <td class="partner">Southern California Crematory (SCC)</td>
-                            <td class="delvnotes">Family to schedule time directly with SCC Monday-Friday from 9am-5pm for pick-up</td>
-                        </tr>
-                        <tr>
-                            <td>Mailing</td>
-                            <td>Included</td>
-                            <td class="partner">Southern California Crematory (SCC)</td>
-                            <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip</td>
-                        </tr>
-                        <tr>
-                            <td>Scattering at Sea</td>
-                            <td>$250</td>
-                            <td class="partner">Southern California Crematory (SCC)</td>
-                            <td class="delvnotes">Happens about every 3 months; SCC will send documents to us after sea scattering occurs</td>
-                        </tr>
-                    </table>
+                    <div class="delivery-web">
+                        <table class="delivery">
+                            <tr class = "table-header">
+                                <th>Delivery Type</th>
+                                <th>Price</th>
+                                <th class="partner">Partner</th>
+                                <th class="delvnotes">Notes</th>
+                            </tr>
+                            <tr>
+                                <td>In-Person Collection</td>
+                                <td>Included</td>
+                                <td class="partner">Southern California Crematory (SCC)</td>
+                                <td class="delvnotes">Family to schedule time directly with SCC Monday-Friday from 9am-5pm for pick-up</td>
+                            </tr>
+                            <tr>
+                                <td>Mailing</td>
+                                <td>Included</td>
+                                <td class="partner">Southern California Crematory (SCC)</td>
+                                <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip</td>
+                            </tr>
+                            <tr>
+                                <td>Scattering at Sea</td>
+                                <td>$250</td>
+                                <td class="partner">Southern California Crematory (SCC)</td>
+                                <td class="delvnotes">Happens about every 3 months; SCC will send documents to us after sea scattering occurs</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="delivery-mobile">
+                        <table class="in-person-collection-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>In-Person Collection</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>Included</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>Southern California Crematory (SCC)</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Family to schedule time directly with SCC Monday-Friday from 9am-5pm for pick-up.</td>
+                            </tr>
+                        </table>
+                        <table class="mailing-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>Mailing</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>Included</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>Southern California Crematory (SCC)</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Partner will have Stamps account and will share tracking information with Tulip.</td>
+                            </tr>
+                        </table>
+                        <table class="scattering-at-sea-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>Scattering at Sea</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>$250</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>Southern California Crematory (SCC)</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Happens about every 3 months; SCC will send documents to us after sea scattering occurs.</td>
+                            </tr>
+                        </table>
+                    </div>
 
                 <h3>Delivery Options - San Diego</h2> 
-                    <table class="delivery">
-                        <tr class = "table-header">
-                            <th>Delivery Type</th>
-                            <th>Price</th>
-                            <th class="partner">Partner</th>
-                            <th class="delvnotes">Notes</th>
-                        </tr>
-                        <tr>
-                            <td>In-Person Collection</td>
-                            <td>Included</td>
-                            <td class="partner">Legacy Funeral</td>
-                            <td class="delvnotes">SCC will package CRs for collection, and then add to truck run that occurs to Legacy, then Legacy will schedule and conduct pick-up</td>
-                        </tr>
-                        <tr>
-                            <td>Mailing</td>
-                            <td>Included</td>
-                            <td class="partner">Southern California Crematory (SCC)</td>
-                            <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip</td>
-                        </tr>
-                        <tr>
-                            <td>Scattering at Sea</td>
-                            <td>$250</td>
-                            <td class="partner">Southern California Crematory (SCC)</td>
-                            <td class="delvnotes">Happens about every 3 months; SCC will send documents to us after sea scattering occurs</td>
-                        </tr>
-                    </table>
+                    <div class="delivery-web">
+                        <table class="delivery">
+                            <tr class = "table-header">
+                                <th>Delivery Type</th>
+                                <th>Price</th>
+                                <th class="partner">Partner</th>
+                                <th class="delvnotes">Notes</th>
+                            </tr>
+                            <tr>
+                                <td>In-Person Collection</td>
+                                <td>Included</td>
+                                <td class="partner">SCC or Legacy Funeral</td>
+                                <td class="delvnotes">For La Mesa/Legacy pick ups - SCC will package CRs for collection, and then add to truck run that occurs to Legacy, then Legacy will schedule and conduct pick-up</td>
+                            </tr>
+                            <tr>
+                                <td>Mailing</td>
+                                <td>Included</td>
+                                <td class="partner">Southern California Crematory (SCC)</td>
+                                <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip</td>
+                            </tr>
+                            <tr>
+                                <td>Scattering at Sea</td>
+                                <td>$250</td>
+                                <td class="partner">Southern California Crematory (SCC)</td>
+                                <td class="delvnotes">Happens about every 3 months; SCC will send documents to us after sea scattering occurs</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="delivery-mobile">
+                        <table class="in-person-collection-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>In-Person Collection</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>Included</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>Southern California Crematory (SCC)</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Family to schedule time directly with SCC Monday-Friday from 9am-5pm for pick-up.</td>
+                            </tr>
+                        </table>
+                        <table class="mailing-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>Mailing</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>Included</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>Southern California Crematory (SCC)</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Partner will have Stamps account and will share tracking information with Tulip.</td>
+                            </tr>
+                        </table>
+                        <table class="scattering-at-sea-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>Scattering at Sea</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>$250</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>Southern California Crematory (SCC)</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Happens about every 3 months; SCC will send documents to us after sea scattering occurs.</td>
+                            </tr>
+                        </table>
+                    </div>
 
                 <h3 id="ca-local">Our Local Info</h3>
                 <h2>License Info</h2>
@@ -529,8 +768,6 @@
                         </tr>
                     </table>
                                     
-
-                <!-- Need Madera,  -->
                 <h3 id="ca-partner">Our Partners</h3>
                 <h5>NorCal | Bay Area & Coast</h5>
                     <h6>Alameda, Contra Costa, Marin, Monterey, Napa, San Francisco, San Mateo, Santa Clara, Santa Cruz, Solano, Sonoma</h6>
@@ -966,27 +1203,67 @@
                         </div>
 
                     <h3 id="co-delivery">Delivery Options</h2> 
-                        <table class="delivery">
-                            <tr class = "table-header">
-                                <th>Delivery Type</th>
-                                <th>Price</th>
-                                <th class="partner">Partner</th>
-                                <th class="delvnotes">Notes</th>
-                            </tr>
-                            <tr>
-                                <td>In-Person Collection</td>
-                                <td>Included</td>
-                                <td class="partner">All-States</td>
-                                <td class="delvnotes">Pickup Location is 6603 Leetsdale Dr., Denver, CO 80224 | (720) 230-5858</td>
-                            </tr>
-                            <tr>
-                                <td>Mailing</td>
-                                <td>Included</td>
-                                <td class="partner">All-States</td>
-                                <td class="delvnotes">Partner will have Stamps account and will
-                            share tracking information with Tulip</td>
-                            </tr>
-                        </table>
+                        <div class="delivery-web">
+                            <table class="delivery">
+                                <tr class = "table-header">
+                                    <th>Delivery Type</th>
+                                    <th>Price</th>
+                                    <th class="partner">Partner</th>
+                                    <th class="delvnotes">Notes</th>
+                                </tr>
+                                <tr>
+                                    <td>In-Person Collection</td>
+                                    <td>Included</td>
+                                    <td class="partner">All-States</td>
+                                    <td class="delvnotes">Pickup Location is 6603 Leetsdale Dr., Denver, CO 80224 | (720) 230-5858</td>
+                                </tr>
+                                <tr>
+                                    <td>Mailing</td>
+                                    <td>Included</td>
+                                    <td class="partner">All-States</td>
+                                    <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="delivery-mobile">
+                            <table class="in-person-collection-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>In-Person Collection</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>All-States</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Pickup Location is 6603 Leetsdale Dr., Denver, CO 80224 | (720) 230-5858</td>
+                                </tr>
+                            </table>
+                            <table class="mailing-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>Mailing</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>All-States</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Partner will have Stamps account and will share tracking information with Tulip.</td>
+                                </tr>
+                            </table>
+                        </div>
 
                     <h3 id="co-local">Our Local Info</h3>
                         <h2>License Info</h2>
@@ -1198,36 +1475,91 @@
                         </div>
 
                     <h3 id="fl-delivery">Delivery Options</h2> 
-                        <table class="delivery">
-                            <tr class = "table-header">
-                                <th>Delivery Type</th>
-                                <th>Price</th>
-                                <th class="partner">Partner</th>
-                                <th class="delvnotes">Notes</th>
-                            </tr>
-                            <tr>
-                                <td>In-Person Collection</td>
-                                <td>Included</td>
-                                <td class="partner">Tyrone Family Tribute Center / Anderson-McQueen</td>
-                                <td class="delvnotes">Pickup offered at the 38th Ave North location.
-                                    Family to schedule an appointment for pickup
-                                    by calling 727-822-2059.</td>
-                            </tr>
-                            <tr>
-                                <td>Mailing</td>
-                                <td>Included</td>
-                                <td class="partner">Tyrone Family Tribute Center / Anderson-McQueen</td>
-                                <td class="delvnotes">Partner will have Stamps account and will
-                            share tracking information with Tulip</td>
-                            </tr>
-                            <tr>
-                                <td>Sea Scattering</td>
-                                <td>$250</td>
-                                <td class="partner">Tyrone Family Tribute Center / Anderson-McQueen</td>
-                                <td class="delvnotes">Partner will scatter and provide scattering
-                                    certificates.</td>
-                            </tr>
-                        </table>
+                        <div class="delivery-web">
+                            <table class="delivery">
+                                <tr class = "table-header">
+                                    <th>Delivery Type</th>
+                                    <th>Price</th>
+                                    <th class="partner">Partner</th>
+                                    <th class="delvnotes">Notes</th>
+                                </tr>
+                                <tr>
+                                    <td>In-Person Collection</td>
+                                    <td>Included</td>
+                                    <td class="partner">Tyrone Family Tribute Center / Anderson-McQueen</td>
+                                    <td class="delvnotes">Pickup offered at the 38th Ave North location. Family to schedule an appointment for pickup by calling 727-822-2059.</td>
+                                </tr>
+                                <tr>
+                                    <td>Mailing</td>
+                                    <td>Included</td>
+                                    <td class="partner">Tyrone Family Tribute Center / Anderson-McQueen</td>
+                                    <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip</td>
+                                </tr>
+                                <tr>
+                                    <td>Sea Scattering</td>
+                                    <td>$250</td>
+                                    <td class="partner">Tyrone Family Tribute Center / Anderson-McQueen</td>
+                                    <td class="delvnotes">Partner will scatter and provide scattering certificates.</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="delivery-mobile">
+                            <table class="in-person-collection-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>In-Person Collection</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Tyrone Family Tribute Center / Anderson-McQueen</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Pickup offered at the 38th Ave North location. Family to schedule an appointment for pickup by calling 727-822-2059.</td>
+                                </tr>
+                            </table>
+                            <table class="mailing-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>Mailing</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Tyrone Family Tribute Center / Anderson-McQueen</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Partner will have Stamps account and will share tracking information with Tulip.</td>
+                                </tr>
+                            </table>
+                            <table class="scattering-at-sea-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>Scattering at Sea</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>$250</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Tyrone Family Tribute Center / Anderson-McQueen</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Partner will scatter and provide scattering certificates.</td>
+                                </tr>
+                            </table>
+                        </div>
 
                     <h3 id="fl-local">Our Local Info</h3>
                         <h2>License Info</h2>
@@ -1428,52 +1760,130 @@
                         </div>
 
                     <h3 id="id-delivery">Delivery Options - Ada County</h2> 
-                        <table class="delivery">
-                            <tr class = "table-header">
-                                <th>Delivery Type</th>
-                                <th>Price</th>
-                                <th class="partner">Partner</th>
-                                <th class="delvnotes">Notes</th>
-                            </tr>
-                            <tr>
-                                <td>In-Person Collection</td>
-                                <td>Included</td>
-                                <td class="partner">Summers Crematory</td>
-                                <td class="delvnotes">Pickup available Monday-Friday, 9am-5pm at
-                                    3629 East Ustick Road, Meridian, ID 83646</td>
-                            </tr>
-                            <tr>
-                                <td>Mailing</td>
-                                <td>Included</td>
-                                <td class="partner">Summers Crematory</td>
-                                <td class="delvnotes">Partner will have Stamps account and will
-                            share tracking information with Tulip</td>
-                            </tr>
-                        </table>
+                        <div class="delivery-web">
+                            <table class="delivery">
+                                <tr class = "table-header">
+                                    <th>Delivery Type</th>
+                                    <th>Price</th>
+                                    <th class="partner">Partner</th>
+                                    <th class="delvnotes">Notes</th>
+                                </tr>
+                                <tr>
+                                    <td>In-Person Collection</td>
+                                    <td>Included</td>
+                                    <td class="partner">Summers Crematory</td>
+                                    <td class="delvnotes">Pickup available Monday-Friday, 9am-5pm at 3629 East Ustick Road, Meridian, ID 83646</td>
+                                </tr>
+                                <tr>
+                                    <td>Mailing</td>
+                                    <td>Included</td>
+                                    <td class="partner">Summers Crematory</td>
+                                    <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="delivery-mobile">
+                            <table class="in-person-collection-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>In-Person Collection</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Summers Crematory</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Pickup available Monday-Friday, 9am-5pm at 3629 East Ustick Road, Meridian, ID 83646.</td>
+                                </tr>
+                            </table>
+                            <table class="mailing-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>Mailing</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Summers Crematory</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Partner will have Stamps account and will share tracking information with Tulip.</td>
+                                </tr>
+                            </table>
+                        </div>
 
                     <h3>Delivery Options - Canyon County</h2> 
-                        <table class="delivery">
-                            <tr class = "table-header">
-                                <th>Delivery Type</th>
-                                <th>Price</th>
-                                <th class="partner">Partner</th>
-                                <th class="delvnotes">Notes</th>
-                            </tr>
-                            <tr>
-                                <td>In-Person Collection</td>
-                                <td>Included</td>
-                                <td class="partner">Flahiff Crematory</td>
-                                <td class="delvnotes">Pickup available Monday-Friday, 9am-5pm at 624
-                                    Cleveland Blvd Caldwell, ID 83605</td>
-                            </tr>
-                            <tr>
-                                <td>Mailing</td>
-                                <td>Included</td>
-                                <td class="partner">Flahiff Crematory</td>
-                                <td class="delvnotes">Partner will have Stamps account and will
-                            share tracking information with Tulip</td>
-                            </tr>
-                        </table>
+                        <div class="delivery-web">
+                            <table class="delivery">
+                                <tr class = "table-header">
+                                    <th>Delivery Type</th>
+                                    <th>Price</th>
+                                    <th class="partner">Partner</th>
+                                    <th class="delvnotes">Notes</th>
+                                </tr>
+                                <tr>
+                                    <td>In-Person Collection</td>
+                                    <td>Included</td>
+                                    <td class="partner">Flahiff Crematory</td>
+                                    <td class="delvnotes">Pickup available Monday-Friday, 9am-5pm at 624 Cleveland Blvd Caldwell, ID 83605</td>
+                                </tr>
+                                <tr>
+                                    <td>Mailing</td>
+                                    <td>Included</td>
+                                    <td class="partner">Flahiff Crematory</td>
+                                    <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="delivery-mobile">
+                            <table class="in-person-collection-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>In-Person Collection</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Flahiff Crematory</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Pickup available Monday-Friday, 9am-5pm at 624 Cleveland Blvd Caldwell, ID 83605</td>
+                                </tr>
+                            </table>
+                            <table class="mailing-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>Mailing</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Flahiff Crematory</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Partner will have Stamps account and will share tracking information with Tulip.</td>
+                                </tr>
+                            </table>
+                        </div>
 
                     <h3 id="id-local">Our Local Info</h3>
                         <h2>License Info</h2>
@@ -1756,31 +2166,73 @@
                         </div>
 
                     <h3 id="mn-delivery">Delivery Options</h2> 
-                        <table class="delivery">
-                            <tr class = "table-header">
-                                <th>Delivery Type</th>
-                                <th>Price</th>
-                                <th class="partner">Partner</th>
-                                <th class="delvnotes">Notes</th>
-                            </tr>
-                            <tr>
-                                <td>In-Person Collection</td>
-                                <td>Included</td>
-                                <td class="partner">Tulip & Minneapolis
-                                    Crematory*</td>
-                                <td class="delvnotes">Tulip will schedule a pickup appointment with the Family.
-                                    Appointments are available M F, 9am 4pm at 4343
-                                    Nicollet Avenue, Minneapolis MN 55409 . Send the
-                                    relevant appointment details to Info@csmcremation.com. *Minneapolis Crematory is part of Cremation Society of Minnesota (CSM)</td>
-                            </tr>
-                            <tr>
-                                <td>Mailing</td>
-                                <td>Included</td>
-                                <td class="partner">Edina Crematory</td>
-                                <td class="delvnotes">Partner will have Stamps account and will
-                            share tracking information with Tulip</td>
-                            </tr>
-                        </table>
+                        <div class="delivery-web">
+                            <table class="delivery">
+                                <tr class = "table-header">
+                                    <th>Delivery Type</th>
+                                    <th>Price</th>
+                                    <th class="partner">Partner</th>
+                                    <th class="delvnotes">Notes</th>
+                                </tr>
+                                <tr>
+                                    <td>In-Person Collection</td>
+                                    <td>Included</td>
+                                    <td class="partner">Tulip & Minneapolis
+                                        Crematory*</td>
+                                    <td class="delvnotes">Tulip will schedule a pickup appointment with the Family.
+                                        Appointments are available M F, 9am 4pm at 4343
+                                        Nicollet Avenue, Minneapolis MN 55409 . Send the
+                                        relevant appointment details to Info@csmcremation.com. *Minneapolis Crematory is part of Cremation Society of Minnesota (CSM)</td>
+                                </tr>
+                                <tr>
+                                    <td>Mailing</td>
+                                    <td>Included</td>
+                                    <td class="partner">Edina Crematory</td>
+                                    <td class="delvnotes">Partner will have Stamps account and will
+                                share tracking information with Tulip</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="delivery-mobile">
+                            <table class="in-person-collection-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>In-Person Collection</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Tulip & Minneapolis
+                                        Crematory*</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Tulip will schedule a pickup appointment with the Family. Appointments are available M F, 9am 4pm at 4343 Nicollet Avenue, Minneapolis MN 55409 . Send the relevant appointment details to Info@csmcremation.com. *Minneapolis Crematory is part of Cremation Society of Minnesota (CSM)</td>
+                                </tr>
+                            </table>
+                            <table class="mailing-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>Mailing</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Edina Crematory</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Partner will have Stamps account and will share tracking information with Tulip.</td>
+                                </tr>
+                            </table>
+                        </div>
 
                     <h3 id="mn-local">Our Local Info</h3>
                         <h2>License Info</h2>
@@ -1990,26 +2442,67 @@
                         </div>
 
                     <h3 id="nv-delivery">Delivery Options</h2> 
-                        <table class="delivery">
-                            <tr class = "table-header">
-                                <th>Delivery Type</th>
-                                <th>Price</th>
-                                <th class="partner">Partner</th>
-                                <th class="delvnotes">Notes</th>
-                            </tr>
-                            <tr>
-                                <td>In-Person Collection</td>
-                                <td>Included</td>
-                                <td class="partner">Vegas Valley Cremation</td>
-                                <td class="delvnotes">None available</td>
-                            </tr>
-                            <tr>
-                                <td>Mailing</td>
-                                <td>Included</td>
-                                <td class="partner">Vegas Valley Cremation</td>
-                                <td class="delvnotes">None available</td>
-                            </tr>
-                        </table>
+                        <div class="delivery-web">
+                            <table class="delivery">
+                                <tr class = "table-header">
+                                    <th>Delivery Type</th>
+                                    <th>Price</th>
+                                    <th class="partner">Partner</th>
+                                    <th class="delvnotes">Notes</th>
+                                </tr>
+                                <tr>
+                                    <td>In-Person Collection</td>
+                                    <td>Included</td>
+                                    <td class="partner">Vegas Valley Cremation</td>
+                                    <td class="delvnotes"><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Mailing</td>
+                                    <td>Included</td>
+                                    <td class="partner">Vegas Valley Cremation</td>
+                                    <td class="delvnotes"><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="delivery-mobile">
+                            <table class="in-person-collection-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>In-Person Collection</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Vegas Valley Cremation</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                                </tr>
+                            </table>
+                            <table class="mailing-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>Mailing</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Vegas Valley Cremation</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                                </tr>
+                            </table>
+                        </div>
 
                     <h3 id="nv-local">Our Local Info</h3>
                         <h2>License Info</h2>
@@ -2192,32 +2685,91 @@
                         </div>
 
                     <h3 id="or-delivery">Delivery Options</h2> 
-                        <table class="delivery">
-                            <tr class = "table-header">
-                                <th>Delivery Type</th>
-                                <th>Price</th>
-                                <th class="partner">Partner</th>
-                                <th class="delvnotes">Notes</th>
-                            </tr>
-                            <tr>
-                                <td>In-Person Collection</td>
-                                <td>Included</td>
-                                <td class="partner"><b class="bold-red">TBD</b></td>
-                                <td class="delvnotes"><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
-                            </tr>
-                            <tr>
-                                <td>Mailing</td>
-                                <td>Included</td>
-                                <td class="partner"><b class="bold-red">TBD</b></td>
-                                <td class="delvnotes"><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
-			                </tr>
-                            <tr>
-                                <td>Scattering at Sea</td>
-                                <td>$250</td>
-                                <td class="partner"><b class="bold-red">TBD</b></td>
-                                <td class="delvnotes"><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
-			                </tr>
-                        </table>
+                        <div class="delivery-web">
+                            <table class="delivery">
+                                <tr class = "table-header">
+                                    <th>Delivery Type</th>
+                                    <th>Price</th>
+                                    <th class="partner">Partner</th>
+                                    <th class="delvnotes">Notes</th>
+                                </tr>
+                                <tr>
+                                    <td>In-Person Collection</td>
+                                    <td>Included</td>
+                                    <td class="partner"><b class="bold-red">TBD</b></td>
+                                    <td class="delvnotes"><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Mailing</td>
+                                    <td>Included</td>
+                                    <td class="partner"><b class="bold-red">TBD</b></td>
+                                    <td class="delvnotes"><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Scattering at Sea</td>
+                                    <td>$250</td>
+                                    <td class="partner"><b class="bold-red">TBD</b></td>
+                                    <td class="delvnotes"><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="delivery-mobile">
+                            <table class="in-person-collection-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>In-Person Collection</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td><b class="bold-red">TBD</b></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                                </tr>
+                            </table>
+                            <table class="mailing-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>Mailing</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td><b class="bold-red">TBD</b></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                                </tr>
+                            </table>
+                            <table class="scattering-at-sea-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>Scattering at Sea</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>$250</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td><b class="bold-red">TBD</b></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                                </tr>
+                            </table>
+                        </div>
 
                     <h3 id="or-local">Our Local Info</h3>
                         <h2>License Info</h2>
@@ -2399,32 +2951,91 @@
                     </div>
 
                     <h3 id="wa-delivery">Delivery Options</h2> 
-                        <table class="delivery">
-                            <tr class = "table-header">
-                                <th>Delivery Type</th>
-                                <th>Price</th>
-                                <th class="partner">Partner</th>
-                                <th class="delvnotes">Notes</th>
-                            </tr>
-                            <tr>
-                                <td>In-Person Collection</td>
-                                <td>Included</td>
-                                <td class="partner">Edwards Memorial</td>
-                                <td class="delvnotes">Pickup offered at the Federal Way location. Family to schedule an appointment for pickup by calling (206) 400-0204</td>
-                            </tr>
-                            <tr>
-                                <td>Mailing</td>
-                                <td>Included</td>
-                                <td class="partner">Edwards Memorial</td>
-                                <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip</td>
-                            </tr>
-                            <tr>
-                                <td>Scattering at Sea</td>
-                                <td>$250</td>
-                                <td class="partner"></td>
-                                <td class="delvnotes"></td>
-                            </tr>
-                        </table>
+                        <div class="delivery-web">
+                            <table class="delivery">
+                                <tr class = "table-header">
+                                    <th>Delivery Type</th>
+                                    <th>Price</th>
+                                    <th class="partner">Partner</th>
+                                    <th class="delvnotes">Notes</th>
+                                </tr>
+                                <tr>
+                                    <td>In-Person Collection</td>
+                                    <td>Included</td>
+                                    <td class="partner">Edwards Memorial</td>
+                                    <td class="delvnotes">Pickup offered at the Federal Way location. Family to schedule an appointment for pickup by calling (206) 400-0204</td>
+                                </tr>
+                                <tr>
+                                    <td>Mailing</td>
+                                    <td>Included</td>
+                                    <td class="partner">Edwards Memorial</td>
+                                    <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip</td>
+                                </tr>
+                                <tr>
+                                    <td>Scattering at Sea</td>
+                                    <td>$250</td>
+                                    <td class="partner"></td>
+                                    <td class="delvnotes"></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="delivery-mobile">
+                            <table class="in-person-collection-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>In-Person Collection</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Edwards Memorial</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Pickup offered at the Federal Way location. Family to schedule an appointment for pickup by calling (206) 400-0204</td>
+                                </tr>
+                            </table>
+                            <table class="mailing-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>Mailing</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td>Edwards Memorial</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td>Partner will have Stamps account and will share tracking information with Tulip.</td>
+                                </tr>
+                            </table>
+                            <table class="scattering-at-sea-table-mobile">
+                                <tr>
+                                    <td class="table-header-mobile">Delivery Type:</td>
+                                    <td>Scattering at Sea</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Price:</td>
+                                    <td>$250</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Partner:</td>
+                                    <td><b class="bold-red">TBD</b></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-header-mobile">Notes:</td>
+                                    <td><b class="bold-red">INFO NOT PROVIDED BY OPERATIONS</b></td>
+                                </tr>
+                            </table>
+                        </div>
 
                 <h3 id="wa-local">Our Local Info</h3>
                 <h2>License Info</h2>
@@ -2621,26 +3232,67 @@
                     </div>
 
                 <h3 id="wi-delivery">Delivery Options</h2> 
-                    <table class="delivery">
-                        <tr class = "table-header">
-                            <th>Delivery Type</th>
-                            <th>Price</th>
-                            <th class="partner">Partner</th>
-                            <th class="delvnotes">Notes</th>
-                        </tr>
-                        <tr>
-                            <td>In-Person Collection</td>
-                            <td>Included</td>
-                            <td class="partner">Nitardy Crematory - Fort Atkinson</td>
-                            <td class="delvnotes">Pickup available M-F, 10am-2pm at 1008 Madison Avenue, Fort Atkinson, WI 53538</td>
-                        </tr>
-                        <tr>
-                            <td>Mailing</td>
-                            <td>Included</td>
-                            <td class="partner">Nitardy Crematory</td>
-                            <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip via the Decedent Tracking Spreadsheet</td>
-                        </tr>
-                    </table>
+                    <div class="delivery-web">
+                        <table class="delivery">
+                            <tr class = "table-header">
+                                <th>Delivery Type</th>
+                                <th>Price</th>
+                                <th class="partner">Partner</th>
+                                <th class="delvnotes">Notes</th>
+                            </tr>
+                            <tr>
+                                <td>In-Person Collection</td>
+                                <td>Included</td>
+                                <td class="partner">Nitardy Crematory - Fort Atkinson</td>
+                                <td class="delvnotes">Pickup available M-F, 10am-2pm at 1008 Madison Avenue, Fort Atkinson, WI 53538</td>
+                            </tr>
+                            <tr>
+                                <td>Mailing</td>
+                                <td>Included</td>
+                                <td class="partner">Nitardy Crematory</td>
+                                <td class="delvnotes">Partner will have Stamps account and will share tracking information with Tulip via the Decedent Tracking Spreadsheet</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="delivery-mobile">
+                        <table class="in-person-collection-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>In-Person Collection</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>Included</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>Nitardy Crematory - Fort Atkinson</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Pickup available M-F, 10am-2pm at 1008 Madison Avenue, Fort Atkinson, WI 53538</td>
+                            </tr>
+                        </table>
+                        <table class="mailing-table-mobile">
+                            <tr>
+                                <td class="table-header-mobile">Delivery Type:</td>
+                                <td>Mailing</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Price:</td>
+                                <td>Included</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Partner:</td>
+                                <td>Nitardy Crematory</td>
+                            </tr>
+                            <tr>
+                                <td class="table-header-mobile">Notes:</td>
+                                <td>Partner will have Stamps account and will share tracking information with Tulip via the Decedent Tracking Spreadsheet</td>
+                            </tr>
+                        </table>
+                    </div>
 
                 <h3 id="wi-local">Our Local Info</h3>
                 <h2>License Info</h2>
@@ -2837,210 +3489,11 @@
 
             </section>
 
-            <!-- TEMPLATE FOR STATES -->
-            <!-- <section class="main-section" id=“statename">
-                <header>
-                <h1>State Name</h1>
-                </header>
-                            
-                <h2 id=“ST-facts">State Quick Facts</h2>
-                    <ul>
-                        <li>Direction Cremation - $</li>
-                        <li>Death Certificate (First) - $</li>
-                        <li>Death Certificate (Additional) - $</li>
-                        <li>Coroner Fees - </li>
-                        <br>
-                        <li>Delivery Options - </li>
-                    </ul>
-                <h2 id="ST-counties">Counties Served</h2>
-                    <div class="counties">
-                        <li></li>
-                    </div>
-                                            
-                    <div class="state-map">
-                        <img src="" width="50%" class="map-image">
-                    </div>
-                <h3 id=“ST-delivery">Delivery Options</h2> 
-                    <table class="delivery">
-                        <tr class = "table-header">
-                            <th>Delivery Type</th>
-                            <th>Price</th>
-                            <th class="partner">Partner</th>
-                            <th class="delvnotes">Notes</th>
-                        </tr>
-                        <tr>
-                            <td>In-Person Collection</td>
-                            <td></td>
-                            <td class="partner"></td>
-                            <td class="delvnotes"></td>
-                        </tr>
-                        <tr>
-                            <td>Mailing</td>
-                            <td></td>
-                            <td class="partner"></td>
-                            <td class="delvnotes"></td>
-                        </tr>
-                    </table>
-                <h3 id=“ST-local">Our Local Info</h3>
-                <h2>License Info</h2>
-                    <table class="localinfo">
-                        <tr>
-                            <td class="col1">License Number:</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="col1">License Address:</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Regulatory Body:</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Funeral Director:</td>
-                            <td></td>
-                        </tr>
-                    </table>
-                <h2>Local Tulip Numbers</h2>
-                    <table class="localinfo">
-                        <tr>
-                            <td class="col1">Main Line:</td>
-                            <td></td>
-                        </tr>
-                    </table>
-                                    
-                <h3 id=“ST-partner">Our Partner</h3>
-                <h2>Removals</h2>
-                    <table class="dispatchinfo">
-                        <tr>
-                            <td class="col1">Dispatch Number:</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Dispatch Email:</td>
-                            <td></td>
-                        </tr>
-                    </table>
-                <h2>Crematory</h2>
-                    <table class="crematoryinfo">
-                        <tr>
-                            <td class="col1">Company:</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Location Leader:</td>
-                            <td>J</td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Crematory Operator:</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Market Leader</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Contact Phone:</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Contact Emails:</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Crematory Address:</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Pick-Up Address:</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Pick-Up Number:</td>
-                            <td></td>
-                        </tr>
-                    </table>
-                <h3 id=“ST-dispatch">Dispatch Information</h3>
-                <h2>Who To Contact</h2>
-                    <table class="dispatchinfo">
-                    <tr>
-                        <td class="col1">Dispatch Number:</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="col1">Dispatch Email:</td>
-                        <td></td>
-                    </tr>
-                    </table>
-                <h2>Process Overview</h2>
-                    <ol>
-                    </ol>
-                <h2>Other Reminders</h2>
-                    <ul>
-                    </ul>
-                <h3 id=“ST-nok">State NOK Overview</h3>    
-                <h2>Next of Kin Order</h2>
-                    <ol>
-                    </ol>
-                <h3>Release and Written Instruments</h3>
-                <h2>Release Type, by facility type</h2>
-                    <ul>
-                    </ul>
-                <h2>Declaration Instruments for disposition of last remains</h2>
-                    <ul>
-                    </ul>
-                <h3 id="co-docs">Cremation Documents</h3>    
-                <h2>Documents to Approve Cremation</h2>
-                    <ul>
-                    </ul>
-                <h2>Other Reminders</h2>
-                    <ul>
-                    </ul>
-            </section> -->
-
-
         </div>
     </div>
 
-    <!-- JavaScript -->
-    <script>
-        {
-            // Collapse Menu with Local Storage
+    <script src="scripts.js"></script>
 
-            const collapsedClass = "sidebar--collapsed";
-            const collapsekey = "sidebar--collapsed";
-
-            const sidebar = document.querySelector(".sidebar");
-            const collapse = document.querySelector(".collapse__content");
-
-            if (localStorage.getItem(collapsekey) === "true") {
-                sidebar.classList.add(collapsedClass);
-            }
-
-            collapse.addEventListener("click", () => {
-                sidebar.classList.toggle(collapsedClass);
-                localStorage.setItem(collapsekey, sidebar.classList.contains(collapsedClass));
-            });
-
-            // Dark Mode with Local Storage
-
-            const modeClass = "dark-theme";
-            const modekey = "dark-theme";
-
-            const page = document.querySelector(".page-container");
-            const mode = document.querySelector(".mode__content");
-
-            if (localStorage.getItem(modekey) === "true") {
-                page.classList.add(modeClass);
-            }
-
-            mode.addEventListener("click", () => {
-                page.classList.toggle(modeClass);
-                localStorage.setItem(modekey, page.classList.contains(modeClass));
-            });
-
-        }
-    </script>
 </body>
 
 </html>
