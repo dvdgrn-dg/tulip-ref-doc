@@ -37,7 +37,6 @@
 html,
 body {
     height: 100%;
-    width: 100%;
     margin: 0;
 }
 
@@ -317,11 +316,18 @@ td {
     height: 30px;
 }
 
-.dispatch-email-mobile {
-    color: var(--primary-color);
-    font-family: var(--secondary-font);
-    font-weight: 1000;
+.no-table-mobile {
+    display: none;
+    list-style-type: none; 
+}
+
+.no-table-mobile li {
     padding-left: 17px;
+}
+
+.no-table-header {
+    font-weight: 1000;
+    margin-top: 10px;  
 }
 
 .coroner-fees {
@@ -374,8 +380,7 @@ td {
     color: var(--secondary-color);
 }
 
-.delivery-mobile,
-.dispatch-email-mobile {
+.delivery-mobile {
     display: none;
 }
 
@@ -449,61 +454,13 @@ td {
         font-size: 90%;
     }
 
-    .dispatch-email-web {
+    .dispatchinfo,
+    .crematoryinfo {
         display: none;
     }
 
-    .dispatch-email-mobile {
+
+    .no-table-mobile {
         display: inline;
-        font-size: 90%;
-    }
-
-    .crematoryinfo {
-        font-size: 70%;
-        font-weight: 1000;
-    }
-
-    html,
-    body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-}
-
-@media screen and (max-width: 481px) {
-    .counties {
-        max-width: 600px;
-        column-count: 2;
-        list-style-type: none;   
-    }
-
-    .coroner-fees {
-        max-width: 600px;
-        column-count: 1;
-        list-style-type: none;   
-    }
-
-    .california-dc {
-        font-size: 90%;
-    }
-
-    .dispatch-email-web {
-        display: none;
-    }
-
-    .dispatch-email-mobile {
-        display: inline;
-        font-size: 90%;
-    }
-
-    .crematoryinfo {
-        font-size: 70%;
-        font-weight: 1000;
-    }
-
-    html,
-    body {
-        max-width: 100%;
-        overflow-x: hidden;
     }
 }
