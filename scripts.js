@@ -33,7 +33,4 @@
         localStorage.setItem(modekey, page.classList.contains(modeClass));
     });
     
-    $('.subnav__content').on('click', 'a', function() {
-      $('.subnav_link').triggerHandler('tap');
-    });
 }
