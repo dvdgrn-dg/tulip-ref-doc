@@ -112,6 +112,8 @@ p {
 .page-container {
     height: inherit;
     display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .sidebar {
@@ -293,6 +295,7 @@ p {
     padding: 0;
     padding: 10px;
     overflow-y: auto;
+    overflow-x: hidden;
     background-color: var(--main-background__color);
 }
 
