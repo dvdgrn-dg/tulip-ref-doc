@@ -468,3 +468,41 @@ td {
         overflow-x: hidden;
     }
 }
+
+@media screen and (max-width: 481px) {
+    .counties {
+        max-width: 600px;
+        column-count: 2;
+        list-style-type: none;   
+    }
+
+    .coroner-fees {
+        max-width: 600px;
+        column-count: 1;
+        list-style-type: none;   
+    }
+
+    .california-dc {
+        font-size: 90%;
+    }
+
+    .dispatch-email-web {
+        display: none;
+    }
+
+    .dispatch-email-mobile {
+        display: inline;
+        font-size: 90%;
+    }
+
+    .crematoryinfo {
+        font-size: 70%;
+        font-weight: 1000;
+    }
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
