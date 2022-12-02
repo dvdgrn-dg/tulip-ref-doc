@@ -475,5 +475,9 @@ td {
     .subnav:hover .subnav__content{
         display: none;
     }
+  
+      .navbar__link {
+        pointer-events: none;
+    }
 
 }
