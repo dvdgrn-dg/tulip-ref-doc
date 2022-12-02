@@ -225,7 +225,7 @@ p {
     color: var(--subnav-link__color);
 }
 
-.subnav:hover .subnav__content {
+.subnav:hover .subnav:active .subnav__content {
     display: block;
 }
 
